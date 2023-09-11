@@ -1,5 +1,5 @@
 function updateCountup() {
-    const startDate = new Date("February 8, 2022 19:00:00").getTime();
+    const startDate = new Date("February 8, 2022 00:00:00").getTime();
     const currentDate = new Date().getTime();
     const timeDifference = currentDate - startDate;
 
